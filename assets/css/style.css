@@ -177,6 +177,11 @@ form {
     width: 100%;
 }
 
+
+.wrapper {
+    width: 100%;
+}
+
 .col-1 {width: 8.33%;}
 
 .col-2 {width: 16.66%;}
@@ -191,9 +196,21 @@ form {
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
-@media screen and (max-width: 980px){}
+@media screen and (max-width: 980px){
 
-@media screen and (max-width: 768px) {}
+    #write {
+        width: 675px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    #write {
+        width: 500px;
+        height: auto;
+    }
+}
 
 @media screen and (max-width: 640px) {
     .logo {
@@ -205,10 +222,11 @@ form {
         text-align: center;
     }
 
-    #picture {
-    }
 
     #write {
-        width: 100%;
+        clear: both;
+        width: 350px;
+        height: auto;
     }
+
 }
