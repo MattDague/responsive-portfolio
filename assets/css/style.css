@@ -1,0 +1,214 @@
+header {
+    display: inline-block;
+    width: 100%;
+    margin: 0px;
+    background: #4aaaa5;
+    border-bottom: solid gray 8px;
+}
+
+.logo {
+    float: left;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: white;
+    margin-top: 0;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    padding-left: 30px;
+
+}
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    margin: 15px;
+    padding-top: 10px;
+}
+
+#write {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    font-size: 20px;
+    margin: 15px;
+    height: 400px;
+}
+
+body {
+    background-image: url("../images/interlaced.png");
+    margin: auto;
+}
+    
+li {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.aboutme {
+    clear: both;
+    width: 960px;
+    margin: auto;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+.navigation {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    float: right;
+    padding-top: 5px;
+   
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+
+}
+
+.contact {
+    width: 960px;
+    margin: auto;
+    background-color: white;
+    padding-bottom:15px;
+
+}
+
+#picture {
+    float: left;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    height: auto;
+    max-width: 100%;
+}
+
+.portfolio {
+    margin:auto;
+    width: 960px;
+    background-color: white;
+      
+}
+
+.projects {
+    padding: 30px;
+    display:inline-block;
+
+}
+
+.allprojects {
+    align-content: space-around;
+
+}
+
+footer {
+    position: relative;
+    bottom:0px;
+    background-color: #777777;
+    padding-top: 20px;
+    height: 50px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    border-top: #4aaaa5 solid 8px;
+
+}
+
+form {
+    padding-left: 20px;
+    font-size: 16px;
+}
+
+.smallform {
+    width: 500px;
+}
+
+#longform {
+    width: 700px;
+    height: 250px;
+}
+
+.site {
+    min-height: calc(100vh - 70px);
+}
+
+.container {
+    float: left;
+    position: relative;
+    width: 50%;
+    max-width: 360px;
+}
+
+.projects {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.overlay {
+    box-sizing: border-box;
+    position: absolute; 
+    bottom: 40px; 
+    left: 30px;
+    background: teal;
+    opacity: .8;
+    width: 300px;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.row {
+    width: 100%;
+}
+
+.col-1 {width: 8.33%;}
+
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media screen and (max-width: 980px){}
+
+@media screen and (max-width: 768px) {}
+
+@media screen and (max-width: 640px) {
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    .navigation {
+        width: 100%;
+        text-align: center;
+    }
+
+    #picture {
+    }
+
+    #write {
+        width: 100%;
+    }
+}
